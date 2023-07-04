@@ -4,10 +4,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-dark text-white fixed-bottom">
+    <footer className="bg-info text-white fixed-bottom">
       <div className="container py-4">
         <div className="d-flex justify-content-center align-items-center">
-          <div className="me-4">&copy; {currentYear} Your Company</div>
+          <div className="me-4">&copy; {currentYear} Keston Antonio Schmidtgen</div>
           <div className="d-flex">
             <a
               href="https://www.linkedin.com/your-linkedin-profile"
