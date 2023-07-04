@@ -2,10 +2,22 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-4">About Me</h1>
+    <div className="container mx-auto px-4 py-8 pt-4">
+      <h2 className="text-4xl font-bold mb-4">Allow me to introduce myself</h2>
       <p className="text-lg">
-        I am a frontend developer with expertise in React.js and a passion for creating user-friendly and visually appealing interfaces. With several years of experience in web development, I have successfully delivered projects for various clients. I enjoy staying up-to-date with the latest web technologies and continuously improving my skills. In my free time, I love exploring new design trends and experimenting with different development techniques.
+        I am Keston Antonio Schmidtgen, a skilled frontend developer eagerly seeking exciting career opportunities in the industry. With a deep passion for creating visually appealing and intuitive user experiences, I am committed to delivering exceptional results that align with business objectives.
+      </p>
+      <p className="text-lg">
+        As a frontend developer, I possess a strong command of the latest web technologies, including HTML, CSS, and JavaScript. My expertise extends to modern frameworks and libraries such as React and Vue.js, enabling me to build responsive and dynamic web applications. I take pride in my attention to detail, ensuring pixel-perfect designs and seamless functionality across various devices.
+      </p>
+      <p className="text-lg">
+        I invite you to explore my diverse portfolio of projects, where you will witness firsthand my ability to transform ideas into captivating digital experiences. Each project showcases my adaptability, problem-solving skills, and dedication to producing high-quality code.
+      </p>
+      <p className="text-lg">
+        If you believe that my skills and passion align with your company's vision, I would be delighted to discuss potential collaboration opportunities further. I welcome the chance to contribute my expertise to your team, driving innovation and delivering exceptional frontend solutions.
+      </p>
+      <p className="text-lg">
+        Thank you for considering my application. I eagerly anticipate the possibility of joining your esteemed organization and making a meaningful impact. Please do not hesitate to reach out to me to discuss how we can work together.
       </p>
     </div>
   );
