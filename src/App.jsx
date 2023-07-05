@@ -1,5 +1,3 @@
-/* eslint-disable react/jsx-no-undef */
-
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -15,11 +13,32 @@ const App = () => {
     <Router>
       <div
         style={{
-          background: 'linear-gradient(to bottom right, purple, pink, yellow)',
-          minHeight: '100vh',
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
           overflow: 'hidden',
         }}
       >
+        <video
+          src="https://thumbs.gfycat.com/ClumsyWhiteFirebelliedtoad-mobile.mp4" // Replace with the URL of your video
+          type="video/mp4"
+          autoPlay
+          loop
+          muted
+          playsInline // Add this attribute for mobile devices
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover', // Set objectFit to 'cover' to make the video fit inside the screen
+            zIndex: -1,
+            transition: 'opacity 0.5s ease-in', // Add a fade-in transition
+          }}
+        />
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
